@@ -1,0 +1,51 @@
+.table-produtos {
+  height: 600px;
+  width: 100%;
+  max-width: 1348px;
+}
+
+.background-table {
+  background-image: url(/img/background-table.png);
+}
+
+.table-produtos .subtitle {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  padding-top: 14px;
+}
+
+.table-produtos .info-burguer {
+  margin: 0 50px;
+  width: 90%;
+}
+
+.modal-content {
+  width: 900px !important;
+}
+
+.modal-open .modal {
+  padding-right: 312px !important;
+}
+
+.modal-body {
+  margin-left: -50px !important;
+  width: 999px !important;
+  padding: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .table-produtos {
+    height: 1600px;
+  }
+
+  .close-button {
+    display: none;
+  }
+
+  .table-produtos .info-burguer {
+    margin: 0 20px;
+  }
+}

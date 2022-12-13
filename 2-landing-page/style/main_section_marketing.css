@@ -1,0 +1,37 @@
+.marketing {
+  background-color: #EBB46E;
+  max-width: 1348px;
+  width: 100%;
+  padding-bottom: 141px;
+}
+
+.background-style {
+  background-color: #EBB46E;
+}
+
+.marketing .subtitle_marketing {
+  padding-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+.marketing .img-marketing {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 114px;
+  padding-right: 114px;
+  margin-top: 100px;
+}
+
+@media (max-width: 768px) {
+  .marketing .subtitle_marketing img {
+    width: 415px;
+  }
+  .marketing .img-marketing {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .marketing .img-marketing img {
+    margin-bottom: 30px;
+  }
+}

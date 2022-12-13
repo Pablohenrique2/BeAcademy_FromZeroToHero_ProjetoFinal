@@ -1,0 +1,131 @@
+.header {
+  background-color: black;
+}
+.menuFixo {
+  position: fixed;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.5)!important;
+}
+
+.header nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 39px 66px;
+  align-items: center;
+  z-index: 999;
+  width: 100%;
+}
+
+.header nav .logo .logo-burguer {
+  margin-left: 10px;
+}
+
+.header nav .nav-text {
+  display: flex;
+}
+
+.header nav .nav-text p {
+  padding-right: 10px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.header nav .nav-text a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.header-section {
+  position: relative;
+  width: 100%;
+  max-width: 1348px;
+}
+
+.header-section .burguer-1 {
+  position: absolute;
+  padding-left: 46px;
+  padding-top: 180px;
+  z-index: 40;
+}
+
+.header-section .burguer-2 {
+  position: relative;
+  padding-left: 550px;
+  margin-top: 700px;
+  padding-bottom: 59px;
+}
+.header-section .logo-title-principal {
+  position: absolute;
+  right: 46px;
+  z-index: 99;
+}
+
+.header-section .logo-subtitle-principal {
+  position: absolute;
+  width: 684px;
+  bottom: 70px;
+  left: -70px;
+  z-index: 99;
+}
+
+.header-section .logo-subtitle-principal p {
+  color: white;
+  padding-left: 91px;
+  font-weight: 600;
+  font-size: 32px;
+  margin-top: 24px;
+}
+
+.responsive-layout {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) { 
+  .header nav {
+    padding: 20px 10px;
+  }
+  .header #header-nav .logo img {
+    width: 200px;
+  }
+  .header #header-nav .logo .logo-burguer {
+    width: 50px;
+  }
+  .header-section .burguer-1 {
+    width: 378px;
+    padding-top: 110px;
+  }
+
+  .header-section .burguer-2 {
+    width: 391px;
+    padding-left: 153px;
+    margin-top: 300px;
+  }
+
+  .header-section .logo-title-principal {
+    width: 300px;
+    right: 16px;
+  }
+  .header-section .logo-subtitle-principal {
+    width: 100px;
+    bottom: 50px;
+    left: -20px;
+  }
+  .header-section .logo-subtitle-principal img{
+   width: 300px;
+  }
+  .header-section .logo-subtitle-principal p {
+    width: 300px;
+    font-size: 12px;
+    padding-left: 50px;
+  }
+  .header nav .nav-text {
+    flex-direction: column;
+  }
+}
+
+    

@@ -1,0 +1,64 @@
+.cardapio-top-burguer {
+  height: 600px;
+  width: 100%;
+  max-width: 1348px;
+}
+
+.background-cardapio-top {
+  background-image: url(/img/background-madeirado.png);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.cardapio-top-burguer .subtitle-top-burguer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardapio-top-burguer .subtitle-top-burguer .title-1 {
+  font-weight: 800;
+  font-size: 40px;
+  color: black;
+  padding-top: 27px;
+  margin-bottom: -1rem;
+}
+
+.cardapio-top-burguer .subtitle-top-burguer .title-2 {
+  color: white;
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.card-burgues {
+  margin-left: 84px;
+  width: 326px;
+  height: 421px;
+  background: #D9D9D9;
+  border-radius: 10px;
+}
+
+.card-burgues .descripition {
+  text-align: center;
+}
+
+.carousel-control-prev {
+  margin-left: -38px;
+}
+
+.style-pr {
+  margin-right: 150px;
+  margin-top: 10px;
+  margin-left: 68px;
+}
+
+.style-pl {
+  margin-left: 50px;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) { 
+  .carousel-control-prev {
+    margin-left: 19px;
+  }
+}

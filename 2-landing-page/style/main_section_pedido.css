@@ -1,0 +1,64 @@
+.pedido-form {
+  height: 600px;
+  width: 100%;
+  max-width: 1348px;
+  margin: 0 50px;
+  position: relative;
+}
+
+.pedido-form .subtitle-form {
+  color: #3c3936;
+  font-size: 42px;
+  font-weight: 600;
+  padding-top: 14px;
+}
+
+.fundo-poupup {
+  top: 0px;
+  height: 650px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.poupup {
+  text-align: center;
+  margin-top: 200px;
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  color: black;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 25px;
+  padding: 30px 100px;
+}
+
+.textArea {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.open {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .pedido-form {
+    height: 950px; 
+  }
+  .form-style {
+    flex-direction: column;
+  }
+  .form-style div {
+    margin: 0 !important;
+  }
+  .form-style div {
+    width: 100% !important;
+  }
+  .textArea {
+    width: 350px;
+    margin-top: 20px;
+  }
+}

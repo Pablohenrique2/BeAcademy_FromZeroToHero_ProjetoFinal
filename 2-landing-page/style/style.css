@@ -1,0 +1,16 @@
+@import "header.css";
+@import "main_section_cardapio.css";
+@import "main_section_marketing.css";
+@import "main_section_table_produtos.css";
+@import "main_section_pedido.css";
+@import "main_section_franquia.css";
+@import "footer.css";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
